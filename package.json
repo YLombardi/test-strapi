@@ -4,7 +4,7 @@
   "private": true,
   "description": "A Strapi application",
   "scripts": {
-    "build": "strapi build",
+    "build": "strapi build -d",
     "console": "strapi console",
     "deploy": "strapi deploy",
     "dev": "strapi develop",
@@ -28,8 +28,18 @@
     "react-router-dom": "^6.0.0",
     "styled-components": "^6.0.0"
   },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",
     "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "5d596bcf-3386-4b9b-8eb6-a94aeacb1b01",
+    "installId": "305e8ecb0f6fdceebfd3f47cc9af55fe2a9dccbd30170e45392f79a7dd1b96e5"
   }
 }
